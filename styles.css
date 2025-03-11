@@ -58,8 +58,10 @@ img {
     margin-top: 20px;
 }
 video {
-    width: 100%;
-    margin-top: 20px;
+    width: 100%;  /* Make it responsive */
+  max-width: 800px;
+  height: auto;
+  border-radius: 10px; /* Rounded corners */
 }
 footer {
     text-align: center;
